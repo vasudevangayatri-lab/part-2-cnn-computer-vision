@@ -1,0 +1,90 @@
+Part 2: Computer Vision Problem Formulation and CNN Prototype
+
+Problem Statement
+
+You are given an image-based dataset. Your task is to formulate a computer vision problem and build a basic CNN-based prototype to solve it.
+The focus of this part is to understand how CNNs use convolution, pooling, activation functions, and dense layers to learn visual patterns from images.
+Dataset
+
+Use the relevant Part 2 dataset from the shared folder:
+https://drive.google.com/drive/folders/1akV6po4Nrgkc3yQrJkzA6cJlV-wBvUYs?usp=sharing
+
+Tasks
+
+Task 1: Problem Identification
+Identify what type of computer vision problem the dataset represents.
+Choose one:
+•	Image classification
+•	Object detection
+•	Semantic segmentation
+•	Instance segmentation
+Clearly explain why the selected problem type is appropriate for the dataset.
+
+Task 2: Dataset Exploration
+Analyze the image dataset.
+Include:
+•	Number of classes
+•	Number of images per class
+•	Sample images from each class
+•	Image dimensions
+•	Any imbalance in the dataset
+
+Task 3: Image Preprocessing
+Prepare the image data for model training.
+Your preprocessing should include:
+•	Resizing images to a fixed size
+•	Normalizing pixel values
+•	Splitting into training and testing sets
+•	Applying augmentation, if needed
+
+Task 4: CNN Model Creation
+Build a CNN model using TensorFlow/Keras or any suitable library.
+Your model should include:
+•	Convolution layer
+•	Activation function
+•	Pooling layer
+•	Flatten layer
+•	Dense layer
+•	Output layer
+
+Task 5: Model Training and Evaluation
+Train and evaluate your CNN model.
+Include:
+•	Training accuracy/loss
+•	Validation accuracy/loss
+•	Testing performance
+•	Confusion matrix
+•	Sample predictions on test images
+
+Task 6: CNN Concept Explanation
+In your README, explain the following in simple terms:
+•	What is convolution?
+•	Why is pooling used?
+•	Why is ReLU commonly used in CNNs?
+•	Why are CNNs better than regular feed-forward networks for image data?
+
+Task 7: Business Use Case Mapping
+Write a short section explaining how this type of computer vision solution can be used in one real-world domain, such as:
+•	Retail
+•	Manufacturing
+•	Healthcare
+•	Agriculture
+•	Security
+•	Autonomous vehicles
+
+Expected Repository Contents
+part-2-cnn-computer-vision/
+│
+├── README.md
+├── notebook.ipynb
+├── requirements.txt
+├── sample_predictions/
+│   └── prediction_outputs.png
+└── results/
+    ├── accuracy_loss_curves.png
+    └── confusion_matrix.png
+
+Submission for Part 2
+Submit only the public GitHub repository link for Part 2 in the Part 2 submission field.
+<Public GitHub Repository Link>
+
